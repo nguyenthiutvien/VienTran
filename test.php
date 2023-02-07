@@ -7,8 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
-	
-	<?php
+<?php
 		for ($i = 0; $i <= 5; $i++) {
 			for ($k = 0; $k < 10; $k++) {
 				if ($i%2==0){
@@ -23,5 +22,7 @@
 
 		
 	?>
+	
+	
 </body>
 </html>
