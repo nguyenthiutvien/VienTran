@@ -23,8 +23,24 @@
 			margin-bottom: 5px;
 			margin-left: 5px;
 			border: 1px solid black;
-		}
-	</style>
-</head>
 
+	</style>
+
+</head>
+<body>
+<?php
+		for ($i = 0; $i <= 5; $i++) {
+			for ($k = 0; $k < 10; $k++) {
+				if ($i%2==0){
+					echo "<div class='hv1'></div>";
+				}
+				else{
+					echo "<div class='hv2'></div>";
+				}
+			}	
+			echo "<div style ='clear:both'></div>";		
+	?>
+	
+	
+</body>
 </html>
